@@ -352,7 +352,7 @@ const CourseDetail = () => {
           {/* === BOUTON CLASSE VIRTUELLE EN BAS === */}
           <div className="flex justify-center mt-auto">
             <a
-              href={`https://visioconf.ec2lt.sn/rooms/test`}
+              href={`https://visioconf.ec2lt.sn/rooms/test/`}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary text-white px-4 py-2 rounded hover:bg-opacity-90 flex items-center gap-2"

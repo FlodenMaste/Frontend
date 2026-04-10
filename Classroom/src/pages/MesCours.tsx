@@ -46,7 +46,7 @@ const MesCours = () => {
         description: c.description,
         duration: c.duree ? `${c.duree} heures` : '',
         level: c.level,
-        category: c.category,
+        category: c.category ?? '',
         image: c.image && c.image.trim() !== '' ? `http://192.168.1.111:3000/${c.image.replace(/^public\//, '')}` : '/default.jpg',
         price: c.prix,
         isFree: !!c.is_free,

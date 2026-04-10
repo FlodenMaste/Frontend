@@ -1,4 +1,10 @@
 {
+  "name": "frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd Classroom && npm install && npm run build",
+    "start": "cd Classroom && npm run preview"
+  },
   "dependencies": {
     "recharts": "^3.3.0"
   }

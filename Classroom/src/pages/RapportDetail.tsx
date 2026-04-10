@@ -30,6 +30,7 @@ const RapportDetail = () => {
   };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (!e.target.files) return;
     setSelectedFile(e.target.files[0]);
     setShowFileSelector(true);
   };
